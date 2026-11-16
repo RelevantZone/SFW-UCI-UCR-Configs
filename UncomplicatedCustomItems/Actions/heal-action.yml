@@ -1,0 +1,5 @@
+id: 1002
+name: HealTarget
+description: An example action to help you get started :)
+actions:
+- '{Player.Health} += 2'

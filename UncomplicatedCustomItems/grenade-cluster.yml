@@ -1,0 +1,33 @@
+id: 104
+name: G-Cluster
+description: Spawns a grenade cluster when spawned
+extended_description: ''
+weight: 2
+item: GrenadeHE
+scale:
+  x: 1
+  y: 1
+  z: 1
+custom_item_type: ExplosiveGrenade
+custom_data:
+  max_radius: 10.0
+  scp_damage_multiplier: 0.35
+  burn_duration: 5.0
+  deafen_duration: 8.0
+  concuss_duration: 4.0
+  fuse_time: 2
+  pin_pull_time: 0.5
+  player_damage_multiplier: 0.15
+  door_damage_multiplier: 2.5
+  repickable: false
+spawn:
+  do_spawn: false
+  count: 1
+  spawn_settings: []
+custom_modules: 
+  Cluster:
+  - ItemToSpawn: GrenadeHE
+    AmountToSpawn: 3
+    ScpDamageMultiplier: 0.45
+    FuseTime: 3.5
+arguments: {}
