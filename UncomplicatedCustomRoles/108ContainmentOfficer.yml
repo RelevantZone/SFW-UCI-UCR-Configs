@@ -78,7 +78,7 @@ custom_flags:
     PermissionsColor: "#1B1B1B"
     KeycardColor: "#8702FF"
     LabelColor: "#FFFFFF"
-    ContainmentLevel: 2
+    ContainmentLevel: 1
     ArmoryLevel: 1
-    AdminLevel: 1
+    AdminLevel: 0
 ignore_spawn_system: false
