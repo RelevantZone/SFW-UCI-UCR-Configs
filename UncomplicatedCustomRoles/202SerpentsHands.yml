@@ -60,12 +60,12 @@ spawn_settings:
   min_players: 3
   spawn_chance: 100
   spawn_delay: 720
-  spawn: SpawnPointSpawn
+  spawn: RoomsSpawn
   spawn_zones: []
-  spawn_rooms: []
+  spawn_rooms: 
+  - EZ_Intercom
   spawn_roles: []
-  spawn_points:
-    - EZ_Intercom
+  spawn_points: []
 required_permission: []
 custom_flags: []
 ignore_spawn_system: false
