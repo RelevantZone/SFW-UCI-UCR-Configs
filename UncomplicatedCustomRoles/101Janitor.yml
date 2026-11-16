@@ -8,8 +8,7 @@ badge_color:
 role: ClassD
 team: ClassD
 role_appearance: None
-is_friend_of: 
-- ChaosInsurgency
+is_friend_of: []
 health:
   amount: 100
   maximum: 100

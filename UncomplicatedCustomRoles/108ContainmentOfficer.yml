@@ -8,8 +8,7 @@ badge_color:
 role: FacilityGuard
 team: FoundationForces
 role_appearance: None
-is_friend_of: 
-- Scientists
+is_friend_of: []
 health:
   amount: 100
   maximum: 100
