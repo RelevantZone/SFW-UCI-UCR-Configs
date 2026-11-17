@@ -10,7 +10,7 @@ team: FoundationForces
 role_appearance:
 is_friend_of: []
 health:
-  amount: 110
+  amount: 100
   maximum: 110
 ahp:
   amount: 0
