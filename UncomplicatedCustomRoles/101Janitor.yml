@@ -54,8 +54,7 @@ custom_inventory_limits: {}
 inventory:
 - Painkillers
 - KeycardJanitor
-custom_items_inventory: 
-- 151
+custom_items_inventory: []
 ammo:
   Ammo9x19: 35
 damage_multiplier: 1
