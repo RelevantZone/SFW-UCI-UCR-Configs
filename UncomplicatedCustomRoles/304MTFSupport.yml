@@ -39,13 +39,18 @@ scale:
   y: 1
   z: 1
 spawn_broadcast: >-
-  You are <color=#00B7EB><b>MTF Support</b></color>! Use your Particle Disruptor to break through heavy targets!
+  <allcaps><font="RobotoMono"><cspace=0.1em>\n
+  <size=1em>You are the <color=#00B7EB><b>RECON</b></color> UNIT</size>\n
+  <line-height=100%>
+  <size=0.5em>Observe the surrounding area... <color=#616060><size=0.4em>Silently</size></color></size>\n
+  </line-height>
+  </cspace></font></allcaps>
 spawn_broadcast_duration: 5
 spawn_hint: Your primary weapon has been replaced with a 3-X Particle Disruptor.
 spawn_hint_duration: 5
 custom_inventory_limits: {}
 inventory:
-- KeycardMTFPrivate
+- KeycardMTFOperative
 - ParticleDisruptor
 - Medkit
 - Radio
@@ -68,5 +73,5 @@ spawn_settings:
   spawn_roles: []
   spawn_points: []
 required_permission: []
-custom_flags:
-  ignore_spawn_system: false
+custom_flags: {}
+ignore_spawn_system: false
