@@ -50,7 +50,7 @@ spawn_hint_duration: 5
 custom_inventory_limits: {}
 inventory:
 - KeycardChaosInsurgency
-- GunAK
+- GunA7
 - Medkit
 - Painkillers
 - ArmorCombat
