@@ -10,14 +10,14 @@ team: FoundationForces
 role_appearance: NtfPrivate
 is_friend_of: []
 health:
-  amount: 110
-  maximum: 110
+  amount: 100
+  maximum: 100
 ahp:
-  amount: 0
+  amount: 25
   limit: 75
   decay: 1.20000005
   efficacy: 0.699999988
-  sustain: 0
+  sustain: 25
   persistant: false
 hume_shield:
   amount: 0
@@ -39,21 +39,26 @@ scale:
   y: 1
   z: 1
 spawn_broadcast: >-
-  You are an <color=#4DFFB8><b>MTF Medic</b></color>! Keep your squad alive!
+  <allcaps><font="RobotoMono"><cspace=0.1em>\n
+  <size=1em>You are the <color=#4DFFB8><b>MEDIC</b></color> UNIT</size>\n
+  <line-height=100%>
+  <size=0.5em>Keep your unit alive and well</size>\n
+  </line-height>
+  </cspace></font></allcaps>
 spawn_broadcast_duration: 5
 spawn_hint: You spawned with an FSP-9 and 3x SCP-500.
 spawn_hint_duration: 5
 custom_inventory_limits: {}
 inventory:
-- KeycardMTFPrivate
+- KeycardMTFOperative
 - GunFSP9
-- Medkit
 - Radio
 - ArmorCombat
+- Adrenaline
 - SCP500
 - SCP500
-- SCP500
-custom_items_inventory: []
+custom_items_inventory: 
+- 1201
 ammo:
   Ammo9x19: 120
   Ammo556x45: 40
@@ -64,12 +69,12 @@ spawn_settings:
   - NtfSergeant
   max_players: 2
   min_players: 1
-  spawn_chance: 50
+  spawn_chance: 60
   spawn: KeepRoleSpawn
   spawn_zones: []
   spawn_rooms: []
   spawn_roles: []
   spawn_points: []
 required_permission: []
-custom_flags:
-  ignore_spawn_system: false
+custom_flags: []
+ignore_spawn_system: false
