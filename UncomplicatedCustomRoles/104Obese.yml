@@ -52,11 +52,6 @@ spawn_hint_duration: 5
 custom_inventory_limits: {}
 inventory:
 - Flashlight
-- SCP330
-- SCP330
-- SCP330
-- SCP330
-- SCP330
 custom_items_inventory: []
 ammo:
   Ammo9x19: 35
@@ -76,4 +71,13 @@ spawn_settings:
   spawn_points: []
   required_permission: []
 custom_flags: 
+- FullCandyBag:
+  - Red
+  - Green
+  - Blue
+  - Blue
+  - Yellow
+  - Yellow
+  - Purple
+  - Rainbow
 ignore_spawn_system: false
