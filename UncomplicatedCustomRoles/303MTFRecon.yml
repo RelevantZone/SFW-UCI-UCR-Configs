@@ -10,14 +10,14 @@ team: FoundationForces
 role_appearance: NtfPrivate
 is_friend_of: []
 health:
-  amount: 110
-  maximum: 110
+  amount: 75
+  maximum: 75
 ahp:
-  amount: 0
+  amount: 25
   limit: 75
   decay: 1.20000005
   efficacy: 0.699999988
-  sustain: 0
+  sustain: 25
   persistant: false
 hume_shield:
   amount: 0
@@ -43,7 +43,12 @@ scale:
   y: 1
   z: 1
 spawn_broadcast: >-
-  You are <color=#A0A0A0><b>MTF Recon</b></color>! Scout ahead silently!
+  <allcaps><font="RobotoMono"><cspace=0.1em>\n
+  <size=1em>You are the <color=#A0A0A0><b>RECON</b></color> UNIT</size>\n
+  <line-height=100%>
+  <size=0.5em>Observe the surrounding area... <color=#616060><size=0.4em>Silently</size></color></size>\n
+  </line-height>
+  </cspace></font></allcaps>
 spawn_broadcast_duration: 5
 spawn_hint: You have silent footsteps, an FSP-9, and SCP-268.
 spawn_hint_duration: 5
@@ -64,14 +69,14 @@ spawn_settings:
   can_replace_roles:
   - NtfPrivate
   - NtfSergeant
-  max_players: 2
-  min_players: 1
-  spawn_chance: 50
+  max_players: 1
+  min_players: 0
+  spawn_chance: 30
   spawn: KeepRoleSpawn
   spawn_zones: []
   spawn_rooms: []
   spawn_roles: []
   spawn_points: []
 required_permission: []
-custom_flags:
-  ignore_spawn_system: false
+custom_flags: {}
+ignore_spawn_system: false
