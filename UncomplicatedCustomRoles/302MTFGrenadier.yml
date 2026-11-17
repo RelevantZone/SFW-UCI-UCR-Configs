@@ -2,12 +2,12 @@ id: 302
 name: MTF Grenadier
 override_role_name: false
 nickname:
-custom_info: MTF Grenadier
+custom_info:
 badge_name: MTF Grenadier
 badge_color: orange
 role: NtfPrivate
 team: FoundationForces
-role_appearance: NtfPrivate
+role_appearance:
 is_friend_of: []
 health:
   amount: 110
