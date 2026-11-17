@@ -43,22 +43,26 @@ scale:
   y: 1
   z: 1
 spawn_broadcast: >-
-  You are an <color=#FF9966><b>MTF Grenadier</b></color>! Clear out hostile rooms with your explosives!
+  <allcaps><font="RobotoMono"><cspace=0.1em>\n
+  <size=1em>You are the <color=#FF9966><b>DEMOLITION</b></color> UNIT</size>\n
+  <line-height=100%>
+  <size=0.5em>Dangerously armed with many explosives</size>\n
+  </line-height>
+  </cspace></font></allcaps>
 spawn_broadcast_duration: 5
 spawn_hint: You spawned with extra Frag Grenades 
 spawn_hint_duration: 5
 custom_inventory_limits:
   Grenade: 4
 inventory:
-- KeycardMTFPrivate
+- KeycardMTFOperative
 - GunCrossvec
 - Medkit
 - Radio
 - ArmorCombat
 - GrenadeHE
-- GrenadeHE
-- GrenadeHE
-custom_items_inventory: []
+custom_items_inventory: 
+- 104
 ammo:
   Ammo9x19: 120
   Ammo556x45: 40
@@ -76,5 +80,5 @@ spawn_settings:
   spawn_roles: []
   spawn_points: []
 required_permission: []
-custom_flags:
-  ignore_spawn_system: false
+custom_flags: {}
+ignore_spawn_system: false
