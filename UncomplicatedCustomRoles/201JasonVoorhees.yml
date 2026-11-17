@@ -1,8 +1,8 @@
 id: 201
 name: Jason Voorhees
-override_role_name: true
+override_role_name: false
 nickname: 
-custom_info: 
+custom_info: Scp-1346
 badge_name: Jason Voorhees
 badge_color: crimson
 role: ClassD
@@ -11,8 +11,8 @@ role_appearance: ClassD
 is_friend_of:
 - SCPs
 health:
-  amount: 130
-  maximum: 130
+  amount: 1500
+  maximum: 1500
 ahp:
   amount: 0
   limit: 75
@@ -21,16 +21,12 @@ ahp:
   sustain: 0
   persistant: false
 hume_shield:
-  amount: 50
-  maximum: 50
+  amount: 0
+  maximum: 0
   regeneration_amount: 2
   regeneration_delay: 7.5
   regeneration_speed: 0
 effects:
-- effect_type: DamageReduction
-  duration: -1
-  intensity: 75
-  removable: false
 - effect_type: Sinkhole
   duration: -1
   intensity: 255
@@ -67,9 +63,9 @@ custom_inventory_limits:
   SpecialWeapon: 0
   Ammo: 0
   Armor: 0
-inventory:
-- SCP1509
-custom_items_inventory: []
+inventory: []
+custom_items_inventory: 
+- 1346
 ammo: {}
 damage_multiplier: 1
 spawn_settings:
@@ -88,4 +84,6 @@ spawn_settings:
   required_permission: []
 custom_flags:
 - DoNotTriggerTeslaGates
+- CustomScpAnnouncer:
+    name: 'SCP-1346'
 ignore_spawn_system: false
