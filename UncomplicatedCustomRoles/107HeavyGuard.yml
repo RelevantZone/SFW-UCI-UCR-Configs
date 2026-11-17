@@ -11,8 +11,8 @@ role_appearance: None
 is_friend_of: []
 
 health:
-  amount: 120
-  maximum: 120
+  amount: 100
+  maximum: 100
 ahp:
   amount: 0
   limit: 75
@@ -21,9 +21,9 @@ ahp:
   sustain: 0
   persistant: false
 hume_shield:
-  amount: 0
-  maximum: 0
-  regeneration_amount: 2
+  amount: 50
+  maximum: 50
+  regeneration_amount: 0
   regeneration_delay: 7.5
   regeneration_speed: 0
 effects: []
@@ -40,10 +40,12 @@ scale:
   y: 1
   z: 1
 spawn_broadcast: >-
-  <allcaps><font="RobotoMono"><cspace=0.1em>\n<line-height>
-  <size=1em>You are a <color=#70829d><b>Heavy Guard</b></color></size>\n
-  <size=0.5em>Protect the facility with your big iron</size>
-  </line-height></cspace></font></allcaps>
+  <allcaps><font="RobotoMono"><cspace=0.1em>\n
+  <size=1em>You are a <color=#70829d><b>Facility Guard Specialist</b></color></size>\n
+  <line-height=100%>
+  <size=0.5em>You are more well-equipped than the others</size>\n
+  </line-height>
+  </cspace></font></allcaps>
 spawn_broadcast_duration: 10
 spawn_hint: 
 spawn_hint_duration: 0
@@ -53,7 +55,7 @@ inventory:
 - KeycardGuard
 - Medkit
 - Radio
-- ArmorHeavy
+- ArmorCombat
 
 custom_items_inventory: []
 ammo:
@@ -64,7 +66,7 @@ spawn_settings:
   - FacilityGuard
   max_players: 2
   min_players: 1
-  spawn_chance: 80
+  spawn_chance: 50
   spawn_delay: 0
   spawn: KeepRoleSpawn
   spawn_zones: []
@@ -73,5 +75,5 @@ spawn_settings:
   - FacilityGuard
   spawn_points: []
   required_permission: []
-custom_flags: 
+custom_flags: []
 ignore_spawn_system: false
