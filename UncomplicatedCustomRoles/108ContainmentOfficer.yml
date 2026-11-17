@@ -84,5 +84,5 @@ custom_flags:
     LabelColor: "#FFFFFF"
     ContainmentLevel: 2
     ArmoryLevel: 1
-    AdminLevel: 0
+    AdminLevel: 1
 ignore_spawn_system: false
