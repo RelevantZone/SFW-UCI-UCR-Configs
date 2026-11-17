@@ -10,7 +10,7 @@ team: ChaosInsurgency
 role_appearance: ChaosRifleman
 is_friend_of: []
 health:
-  amount: 125
+  amount: 100
   maximum: 125
 ahp:
   amount: 0
@@ -20,11 +20,11 @@ ahp:
   sustain: 0
   persistant: false
 hume_shield:
-  amount: 0
-  maximum: 0
-  regeneration_amount: 1
+  amount: 125
+  maximum: 125
+  regeneration_amount: 10
   regeneration_delay: 7.5
-  regeneration_speed: 0
+  regeneration_speed: 0.6
 effects: []
 stamina:
   regen_multiplier: 1
