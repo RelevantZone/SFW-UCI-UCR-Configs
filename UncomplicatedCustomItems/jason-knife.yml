@@ -1,0 +1,26 @@
+id: 1346
+name: Jason Knife
+description: Scp1346 knife
+extended_description: ''
+weight: 3
+item: SCP1509
+scale:
+  x: 1
+  y: 1
+  z: 1
+custom_item_type: SCPItem
+custom_data:
+  can_resurrect: false
+  humeshield_max: 750.0
+  humeshield_regeneration: 1
+  humeshield_regen_rate: 0.1
+  humeshield_decay_rate: 1.0
+  humeshield_on_damage_pause_time: 5.0
+  unequip_humeshield_decay_delay: 10.0
+spawn:
+  do_spawn: false
+  count: 5
+arguments: 
+  OnHurting: |
+    Log {Attacker} is hurting {Player}
+custom_modules: {}
