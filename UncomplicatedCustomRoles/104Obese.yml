@@ -7,9 +7,8 @@ badge_name:
 badge_color: 
 role: ClassD
 team: ClassD
-role_appearance: ClassD
-is_friend_of: 
-- ClassD
+role_appearance:
+is_friend_of: []
 health:
   amount: 125
   maximum: 125
