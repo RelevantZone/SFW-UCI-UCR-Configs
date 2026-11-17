@@ -11,14 +11,14 @@ role_appearance: ClassD
 is_friend_of: 
 - ClassD
 health:
-  amount: 110
-  maximum: 120
+  amount: 100
+  maximum: 150
 ahp:
-  amount: 0
-  limit: 75
+  amount: 25
+  limit: 125
   decay: 1.20000005
   efficacy: 0.699999988
-  sustain: 0
+  sustain: 25
   persistant: false
 hume_shield:
   amount: 0
@@ -29,7 +29,7 @@ hume_shield:
 effects: []
 stamina:
   regen_multiplier: 1
-  usage_multiplier: 1
+  usage_multiplier: 1.5
   infinite: false
 max_scp330_candies: 6
 can_escape: true
@@ -42,10 +42,12 @@ scale:
   y: 0.9
   z: 1.2
 spawn_broadcast: >-
-  You are <color=orange><b>FAT</b></color>!
-
-  You have more health and can eat all the Candy!
-  
+  <allcaps><font="RobotoMono"><cspace=0.1em>\n
+  <size=1em>You are a <color=orange><b>Class-D Spy</b></color></size>\n
+  <line-height=100%>
+  <size=0.5em>Rescue your fellow <color=orange>Class-D's</color> and help them escape</size>\n
+  </line-height>
+  </cspace></font></allcaps>!
 spawn_broadcast_duration: 5
 spawn_hint: This hint will be shown when you will spawn as a FAT!
 spawn_hint_duration: 5
