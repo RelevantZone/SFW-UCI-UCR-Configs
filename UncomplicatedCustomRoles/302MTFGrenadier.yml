@@ -60,6 +60,7 @@ inventory:
 - Radio
 - ArmorCombat
 - GrenadeHE
+- GrenadeHE
 custom_items_inventory: 
 - 104
 ammo:
