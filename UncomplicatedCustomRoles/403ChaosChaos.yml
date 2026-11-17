@@ -39,7 +39,11 @@ scale:
   y: 1
   z: 1
 spawn_broadcast: >-
-  You are <color=#4B5320><b>Chaos Chaos</b></color>! You are an MTF spy disguised as Chaos Insurgency!
+  <allcaps><font="RobotoMono"><cspace=0.1em>\n
+  <size=1em>You are a <color=#4B5320><b>Chaos Spy</b></color></size>\n
+  <line-height=100%><size=0.6em>Assist <color=blue>MTFs</color> with their objectives</size>\n
+  </line-height>
+  </cspace></font></allcaps>
 spawn_broadcast_duration: 5
 spawn_hint: You fight for Foundation Forces while wearing a Chaos Rifleman uniform.
 spawn_hint_duration: 5
