@@ -39,8 +39,14 @@ scale:
   x: 1
   y: 1
   z: 1
-spawn_broadcast: 
-spawn_broadcast_duration: 0
+spawn_broadcast: >-
+  <allcaps><font="RobotoMono"><cspace=0.1em>\n
+  <size=1em>You are a <color=#8702FF><b>Containment Officer</b></color></size>\n
+  <line-height=100%>
+  <size=0.5em>Use your keycard to get better access</size>\n
+  </line-height>
+  </cspace></font></allcaps>
+spawn_broadcast_duration: 10
 spawn_hint: 
 spawn_hint_duration: 0
 custom_inventory_limits: 
