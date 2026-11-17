@@ -18,7 +18,7 @@ ahp:
   decay: 0.0
   efficacy: 0.699999988
   sustain: 0
-  persistant: false
+  persistant: true
 hume_shield:
   amount: 0
   maximum: 0
