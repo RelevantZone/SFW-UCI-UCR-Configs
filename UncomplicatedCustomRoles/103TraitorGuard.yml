@@ -42,9 +42,12 @@ scale:
   y: 1
   z: 1
 spawn_broadcast: >-
-  You are a <color=orange><b>Spy</b></color>!
-
-  Blend in with the other guards and rescue ClassD!
+  <allcaps><font="RobotoMono"><cspace=0.1em>\n
+  <size=1em>You are a <color=orange><b>Class-D Spy</b></color></size>\n
+  <line-height=100%>
+  <size=0.5em>Rescue your fellow <color=orange>Class-D's</color> and help them escape</size>\n
+  </line-height>
+  </cspace></font></allcaps>!
 spawn_broadcast_duration: 5
 spawn_hint: This hint will be shown when you will spawn as a Spy!
 spawn_hint_duration: 5
