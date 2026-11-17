@@ -14,15 +14,15 @@ health:
   amount: 100
   maximum: 100
 ahp:
-  amount: 0
-  limit: 75
-  decay: 1.20000005
-  efficacy: 0.699999988
-  sustain: 0
-  persistant: false
-hume_shield:
   amount: 50
-  maximum: 50
+  limit: 75
+  decay: 0
+  efficacy: 0.7
+  sustain: 0
+  persistant: true
+hume_shield:
+  amount: 0
+  maximum: 0
   regeneration_amount: 0
   regeneration_delay: 7.5
   regeneration_speed: 0
@@ -42,8 +42,7 @@ scale:
 spawn_broadcast: >-
   <allcaps><font="RobotoMono"><cspace=0.1em>\n
   <size=1em>You are a <color=#70829d><b>Facility Guard Specialist</b></color></size>\n
-  <line-height=100%>
-  <size=0.5em>You are more well-equipped than the others</size>\n
+  <line-height=100%><size=0.6em>You are more well-equipped than the others</size>\n
   </line-height>
   </cspace></font></allcaps>
 spawn_broadcast_duration: 10

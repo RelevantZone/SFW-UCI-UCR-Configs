@@ -42,8 +42,7 @@ scale:
 spawn_broadcast: >-
   <allcaps><font="RobotoMono"><cspace=0.1em>\n
   <size=1em>You are a <color=#8702FF><b>Containment Officer</b></color></size>\n
-  <line-height=100%>
-  <size=0.5em>Use your keycard to get better access</size>\n
+  <line-height=100%><size=0.6em>Use your keycard to get better access</size>\n
   </line-height>
   </cspace></font></allcaps>
 spawn_broadcast_duration: 10
@@ -63,7 +62,7 @@ damage_multiplier: 1
 spawn_settings:
   can_replace_roles:
   - FacilityGuard
-  max_players: 5
+  max_players: 3
   min_players: 1
   spawn_chance: 40
   spawn_delay: 0

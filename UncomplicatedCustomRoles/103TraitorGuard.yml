@@ -44,11 +44,10 @@ scale:
 spawn_broadcast: >-
   <allcaps><font="RobotoMono"><cspace=0.1em>\n
   <size=1em>You are a <color=orange><b>Class-D Spy</b></color></size>\n
-  <line-height=100%>
-  <size=0.5em>Rescue your fellow <color=orange>Class-D's</color> and help them escape</size>\n
+  <line-height=100%><size=0.6em>Rescue your fellow <color=orange>Class-D's</color> and help them escape</size>\n
   </line-height>
-  </cspace></font></allcaps>!
-spawn_broadcast_duration: 5
+  </cspace></font></allcaps>
+spawn_broadcast_duration: 10
 spawn_hint: This hint will be shown when you will spawn as a Spy!
 spawn_hint_duration: 5
 custom_inventory_limits: {}
@@ -67,7 +66,7 @@ spawn_settings:
   - ClassD
   max_players: 1
   min_players: 0
-  spawn_chance: 50
+  spawn_chance: 30
   spawn: RoomsSpawn
   spawn_zones: []
   spawn_rooms:

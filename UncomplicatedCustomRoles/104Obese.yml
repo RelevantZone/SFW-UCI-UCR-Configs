@@ -11,11 +11,11 @@ role_appearance: ClassD
 is_friend_of: 
 - ClassD
 health:
-  amount: 100
-  maximum: 150
+  amount: 125
+  maximum: 125
 ahp:
-  amount: 25
-  limit: 125
+  amount: 0
+  limit: 75
   decay: 1.20000005
   efficacy: 0.699999988
   sustain: 25
@@ -43,12 +43,12 @@ scale:
   z: 1.2
 spawn_broadcast: >-
   <allcaps><font="RobotoMono"><cspace=0.1em>\n
-  <size=1em>You are a <color=orange><b>Class-D Spy</b></color></size>\n
-  <line-height=100%>
-  <size=0.5em>Rescue your fellow <color=orange>Class-D's</color> and help them escape</size>\n
+  <size=1em>You are <color=orange><b>Obese</b></color></size>\n
+  <line-height=100%><size=0.6em>You like sweets and always prepared with candies </size>\n
+  <color=#616060><size=0.45em>You have diabetes type 3 and won't live long</size></color>
   </line-height>
-  </cspace></font></allcaps>!
-spawn_broadcast_duration: 5
+  </cspace></font></allcaps>
+spawn_broadcast_duration: 10
 spawn_hint: This hint will be shown when you will spawn as a FAT!
 spawn_hint_duration: 5
 custom_inventory_limits: {}
@@ -62,7 +62,7 @@ spawn_settings:
   can_replace_roles:
   - ClassD
   max_players: 2
-  min_players: 1
+  min_players: 0
   spawn_chance: 50
   spawn_delay: 0
   spawn: KeepRoleSpawn
@@ -74,12 +74,13 @@ spawn_settings:
   required_permission: []
 custom_flags: 
 - FullCandyBag:
-  - Red
-  - Green
-  - Blue
-  - Blue
-  - Yellow
-  - Yellow
-  - Purple
-  - Rainbow
+    candies:
+    - Red
+    - Green
+    - Blue
+    - Blue
+    - Yellow
+    - Yellow
+    - Purple
+    - Rainbow
 ignore_spawn_system: false
