@@ -8,8 +8,7 @@ badge_color: crimson
 role: ClassD
 team: SCPs
 role_appearance: ClassD
-is_friend_of:
-- SCPs
+is_friend_of: []
 health:
   amount: 1500
   maximum: 1500
@@ -23,7 +22,7 @@ ahp:
 hume_shield:
   amount: 0
   maximum: 0
-  regeneration_amount: 2
+  regeneration_amount: 0
   regeneration_delay: 7.5
   regeneration_speed: 0
 effects:
@@ -45,9 +44,8 @@ scale:
   z: 1.2
 spawn_broadcast: >-
   <allcaps><font="RobotoMono"><cspace=0.1em>\n
-  <size=1em>You are a <color=#ff0000>SCPs</color> <color=#dc143c><b>Jason Voorhees</b></color></size>\n
-  <line-height=100%>
-  <size=0.5em>Hunt down all humans within the facility</size>\n
+  <size=1em>You are <color=#dc143c><b>Jason Voorhees</b></color></size>\n
+  <line-height=100%><size=0.6em>Hunt down all humans within the facility</size>\n
   </line-height>
   </cspace></font></allcaps>
 spawn_broadcast_duration: 10
@@ -72,18 +70,19 @@ spawn_settings:
   can_replace_roles:
   - Spectator
   max_players: 1
-  min_players: 0
+  min_players: 1
   spawn_chance: 15
   spawn_delay: 30
-  spawn: RoomsSpawn
+  spawn: KeepRoleSpawn
   spawn_zones: []
-  spawn_rooms: 
-  - LczClassDSpawn
+  spawn_rooms: []
   spawn_roles: []
   spawn_points: []
   required_permission: []
 custom_flags:
+- DoNotTrigger096
 - DoNotTriggerTeslaGates
+- DropNothingOnDeath
 - CustomScpAnnouncer:
     name: 'SCP-1346'
 ignore_spawn_system: false
