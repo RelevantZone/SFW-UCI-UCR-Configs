@@ -45,7 +45,7 @@ spawn_broadcast: >-
   </line-height>
   </cspace></font></allcaps>
 spawn_broadcast_duration: 5
-spawn_hint: You spawned with an FSP-9 and 3x SCP-500.
+spawn_hint: You spawned with an FSP-9 and 2x SCP-500.
 spawn_hint_duration: 5
 custom_inventory_limits: {}
 inventory:
