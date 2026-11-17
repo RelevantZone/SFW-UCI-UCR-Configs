@@ -28,6 +28,7 @@ arguments:
   OnDroppingItem: |
     if Player.CustomInfo == "Scp-1346" then IsAllowed = false
 custom_modules: 
+  CantDrop: {}
   EquipHintOverride:
   - hint: 'This is a funny gun!'
     duration: 5
