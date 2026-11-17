@@ -1,0 +1,26 @@
+id: 125
+name: Degraded 3-X Disruptor
+description: Reduced-functionality of the 3-X Particle Disruptor
+weight: 3
+item: ParticleDisruptor
+custom_item_type: ParticleDisruptor
+custom_data:
+  burst_damage: 15.0
+  charge_damage: 50.0
+  penetration: 1.0
+  inaccuracy: 0.5
+  aiming_inaccuracy: 0.1
+  enable_friendly_fire: false
+custom_modules:
+  Craftable:
+  - KnobSetting: "1To1"
+    OriginalItem: ParticleDisruptor
+    Chance: 50.0
+  - KnobSetting: "Coarse"
+    OriginalItem: ParticleDisruptor
+    Chance: 50.0
+  - KnobSetting: "1To1"
+    OriginalItem: MicroHID
+    Chance: 50.0
+spawn:
+  do_spawn: false

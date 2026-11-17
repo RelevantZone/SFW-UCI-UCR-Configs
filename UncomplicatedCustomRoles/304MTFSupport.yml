@@ -25,7 +25,11 @@ hume_shield:
   regeneration_amount: 2
   regeneration_delay: 7.5
   regeneration_speed: 0
-effects: []
+effects: 
+- effect_type: Invigorated
+  duration: 30
+  intensity: 1
+  removable: true
 stamina:
   regen_multiplier: 1
   usage_multiplier: 1
@@ -50,15 +54,15 @@ spawn_hint_duration: 5
 custom_inventory_limits: {}
 inventory:
 - KeycardMTFOperative
-- ParticleDisruptor
-- GunCOM18
+- GunRevolver
 - Medkit
 - Radio
 - ArmorCombat
-custom_items_inventory: []
+custom_items_inventory: 
+- 125
 ammo:
   Ammo9x19: 120
-  Ammo556x45: 40
+  Ammo44cal: 24
 damage_multiplier: 1
 spawn_settings:
   can_replace_roles:
