@@ -51,6 +51,7 @@ custom_inventory_limits: {}
 inventory:
 - KeycardMTFOperative
 - ParticleDisruptor
+- GunCOM18
 - Medkit
 - Radio
 - ArmorCombat
