@@ -2,7 +2,7 @@ id: 304
 name: MTF Support
 override_role_name: false
 nickname: 
-custom_info: MTF Support
+custom_info:
 badge_name: MTF Support
 badge_color: cyan
 role: NtfPrivate
@@ -10,15 +10,15 @@ team: FoundationForces
 role_appearance: NtfPrivate
 is_friend_of: []
 health:
-  amount: 120
-  maximum: 120
+  amount: 100
+  maximum: 100
 ahp:
-  amount: 0
+  amount: 25
   limit: 75
-  decay: 1.20000005
+  decay: 0.0
   efficacy: 0.699999988
   sustain: 0
-  persistant: false
+  persistant: true
 hume_shield:
   amount: 0
   maximum: 0
