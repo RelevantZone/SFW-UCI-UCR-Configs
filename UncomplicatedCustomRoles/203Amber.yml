@@ -50,7 +50,7 @@ spawn_broadcast: >-
   <allcaps><font="RobotoMono"><cspace=0.1em>\n
   <size=1em>You are <color=#FFBF00><b>AMBER TAN WEN HUA</b></color></size>\n
   <line-height=100%><size=0.6em>Escape the facility to operate <color=#ff0000>SCP-079</color></size>\n
-  <color=#ffffff><size=0.45em>The <color=#ff0000>SCPs</color> are hostile, but you are aligned with <color=#ff0000>them</color>.</size></color>
+  <color=#ffffff><size=0.45em>The <color=#ff0000>SCPs</color> are hostile, but you are beneficial for <color=#ff0000>them</color>.</size></color>
   </line-height>
   </cspace></font></allcaps>
 spawn_broadcast_duration: 10
