@@ -1,7 +1,7 @@
 id: 201
 name: Jason Voorhees
 override_role_name: false
-nickname: 
+nickname:
 custom_info: Scp-1346
 badge_name: Jason Voorhees
 badge_color: crimson
@@ -21,10 +21,10 @@ ahp:
   persistant: false
 hume_shield:
   amount: 0
-  maximum: 0
-  regeneration_amount: 0
+  maximum: 750
+  regeneration_amount: 30
   regeneration_delay: 7.5
-  regeneration_speed: 0
+  regeneration_speed: 0.3
 effects:
 - effect_type: Sinkhole
   duration: -1
@@ -83,6 +83,8 @@ custom_flags:
 - DoNotTrigger096
 - DoNotTriggerTeslaGates
 - DropNothingOnDeath
+- DropItemOnDeath:
+  item: SCP1509
 - CustomScpAnnouncer:
-    name: 'SCP-1346'
+  name: 'SCP-1346'
 ignore_spawn_system: false

@@ -13,12 +13,12 @@ scale:
 custom_item_type: SCPItem
 custom_data:
   can_resurrect: false
-  humeshield_max: 750.0
+  humeshield_max: 125
   humeshield_regeneration: 30
   humeshield_regen_rate: 0.5
   humeshield_decay_rate: 1.0
   humeshield_on_damage_pause_time: 15.0
-  unequip_humeshield_decay_delay: 0
+  unequip_humeshield_decay_delay: 1
 spawn:
   do_spawn: false
   count: 5
@@ -26,9 +26,8 @@ arguments:
   OnHurting: >
     Log {Target} is hurting {Player}
   OnDroppingItem: |
-    if Player.CustomInfo == "Scp-1346" then {IsAllowed} = false
+    if Player.CustomInfo == "Scp-1346" then IsAllowed = false
 custom_modules: 
-  CantDrop: {}
   EquipHintOverride:
   - hint: 'This is a funny gun!'
     duration: 5
