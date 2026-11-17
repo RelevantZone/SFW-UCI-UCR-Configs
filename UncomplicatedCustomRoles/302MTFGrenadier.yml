@@ -45,8 +45,7 @@ scale:
 spawn_broadcast: >-
   <allcaps><font="RobotoMono"><cspace=0.1em>\n
   <size=1em>You are the <color=#FF9966><b>DEMOLITION</b></color> UNIT</size>\n
-  <line-height=100%>
-  <size=0.5em>Dangerously armed with many explosives</size>\n
+  <line-height=100%><size=0.6em>Dangerously armed with many explosives</size>\n
   </line-height>
   </cspace></font></allcaps>
 spawn_broadcast_duration: 5
