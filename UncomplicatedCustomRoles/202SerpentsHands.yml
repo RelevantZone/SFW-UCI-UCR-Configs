@@ -37,8 +37,12 @@ scale:
   y: 1
   z: 1
 spawn_broadcast: >-
-  <color=red><b>You are the Serpent's Hand!</b></color>
-  Assist the SCPs and eliminate all Foundation and Chaos Insurgency forces.
+  <allcaps><font="RobotoMono"><cspace=0.1em>\n
+  <size=1em>You are the <color=#4DFFB8><b>Serpents Hands</b></color></size>\n
+  <line-height=100%>
+  <size=0.5em>Assist <color=#ff0000>SCPs</color> and eliminate opposing factions</size>\n
+  </line-height>
+  </cspace></font></allcaps>
 spawn_broadcast_duration: 8
 spawn_hint: You are allied with SCPs. Wipe out all human teams.
 spawn_hint_duration: 6
