@@ -51,6 +51,7 @@ inventory:
 - GunFSP9
 - Medkit
 - Painkillers
+- Radio
 - ArmorCombat
 custom_items_inventory: []
 ammo:
