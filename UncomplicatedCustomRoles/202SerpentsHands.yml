@@ -11,11 +11,11 @@ health:
   amount: 100
   maximum: 100
 ahp:
-  amount: 0
+  amount: 50
   limit: 75
-  decay: 1.20000005
+  decay: 0.6
   efficacy: 0.699999988
-  sustain: 0
+  sustain: 10
   persistant: false
 hume_shield:
   amount: 0
@@ -48,11 +48,10 @@ spawn_hint: You are allied with SCPs. Wipe out all human teams.
 spawn_hint_duration: 6
 custom_inventory_limits: {}
 inventory:
-  - KeycardChaosInsurgency
-  - GunAK
-  - Medkit
-  - Painkillers
-  - ArmorCombat
+- GunFSP9
+- Medkit
+- Painkillers
+- ArmorCombat
 custom_items_inventory: []
 ammo:
   Ammo762x39: 120
@@ -60,14 +59,20 @@ damage_multiplier: 1
 spawn_settings:
   can_replace_roles:
     - Spectator
-  max_players: 3
-  min_players: 3
+  max_players: 5
+  min_players: 5
   spawn_chance: 100
   spawn_delay: 720
   spawn: RoomsSpawn
   spawn_zones: []
   spawn_rooms: 
   - EZ_Intercom
+  - EZ_ThreeWay
+  - EZ_Crossing
+  - EZ_Curve
+  - EZ_Shelter
+  - EZ_CollapsedTunnel
+  - EZ_upstairs
   spawn_roles: []
   spawn_points: []
 required_permission: []
