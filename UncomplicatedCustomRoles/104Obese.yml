@@ -48,12 +48,11 @@ spawn_broadcast: >-
   </line-height>
   </cspace></font></allcaps>
 spawn_broadcast_duration: 10
-spawn_hint: This hint will be shown when you will spawn as a FAT!
-spawn_hint_duration: 5
+spawn_hint: 
+spawn_hint_duration: 0
 custom_inventory_limits: {}
 inventory:
 - Flashlight
-- AntiSCP207
 custom_items_inventory: []
 ammo:
   Ammo9x19: 35
