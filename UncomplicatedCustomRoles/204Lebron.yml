@@ -1,0 +1,69 @@
+id: 204
+name: Lebron Larry
+override_role_name: true
+nickname: 
+custom_info: Lebron Larry
+badge_name: Lebron Larry
+badge_color: crimson
+role: Scp106
+team: SCPs
+role_appearance: Scp106
+is_friend_of: 
+- SCPs
+health:
+  amount: 2200
+  maximum: 2200
+ahp:
+  amount: 0
+  limit: 75
+  decay: 1.20000005
+  efficacy: 0.699999988
+  sustain: 0
+  persistant: false
+hume_shield:
+  amount: 800
+  maximum: 800
+  regeneration_amount: 10
+  regeneration_delay: 10
+  regeneration_speed: 0.2
+effects:
+- effect_type: Lightweight
+  duration: -1
+  intensity: 2
+  removable: false
+stamina:
+  regen_multiplier: 1
+  usage_multiplier: 1
+  infinite: false
+max_scp330_candies: 0
+can_escape: false
+role_after_escape: {}
+scale:
+  x: 1.1
+  y: 1.1
+  z: 1.1
+spawn_broadcast: >-
+  You are <color=#dc143c><b>Lebron Larry</b></color>! Hunt down all human targets.
+spawn_broadcast_duration: 5
+spawn_hint: You can jump and run!
+spawn_hint_duration: 0
+custom_inventory_limits: {}
+inventory: []
+custom_items_inventory: []
+ammo: {}
+damage_multiplier: 1.2
+spawn_settings:
+  can_replace_roles:
+  - Scp106
+  max_players: 1
+  min_players: 0
+  spawn_chance: 0
+  spawn: RoleSpawn
+  spawn_zones: []
+  spawn_rooms: []
+  spawn_roles:
+  - Scp106
+  spawn_points: []
+required_permission: []
+custom_flags:
+  ignore_spawn_system: false
